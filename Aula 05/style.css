@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+div {
+    border: solid 5px black;
+    height: 380px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    
+}
+h1 {
+    font-weight: 500;
+    margin: 15px;
+    border: solid 10px red;
+    background: red;
+}
+input{
+    margin: 8px;
+    height: 30px;
+    width: 200px;
+}
