@@ -1,55 +1,13 @@
+// Declara uma variavel sem valor.
 
-/*Strings
-const numero = 23
+var user 
 
-const texto = `o numero é ${numero}`
+console.log(user)
 
-console.log(texto)*/
+// Declara uma variavel com valor
+var email = "calos@gmail.com"
+console.log(email)
 
-
-/*Numbers
-const numero = 200 + 20 
-console.log(numero)*/
-
-/*
-  Boolean -> Booleano
-  const = true or false
-  
-  
-  
-  
-  Object -> Objetos
-  const usuario = {
-     nome: 'Rodolfo',
-     idade: 30,
-     casado: true
-     conjuge: "Dona Bonita"
-  }
-
-  console.log(usuario.nome)
-
-
-Null -> Undefined
-  const usuario = {
-     nome: 'Rodolfo',
-     idade: 30,
-     casado: true
-     conjuge: "Dona Bonita"
-
-  
-
-Array -> Matriz
-const usuario2 = [ {
-     nome: 'Rodolfo',
-     idade: 30,
-     casado: true
-     conjuge: "Dona Bonita"
-}],
-   
-     const usuario = [{
-     nome: 'Rodolfo',
-     idade: 30,
-     casado: true
-     conjuge: "Dona Bonita"
-]
-  */
+// Substitui o valor da variavel. 
+email = "joao@emial.com"
+console.log(email)
